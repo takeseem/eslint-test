@@ -21,4 +21,11 @@ export class SafeMessager {
 			}
 		});
 	}
+
+	/** command eslint cannot report any unused var */
+	havFun3(a: string, b: string, c: string, last: string) {
+		if (last != '1') {
+			console.log('check: last is not 1');
+		}
+	}
 }
